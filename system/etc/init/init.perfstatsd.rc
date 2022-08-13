@@ -1,0 +1,4 @@
+service perfstatsd /system/bin/perfstatsd
+    user root
+    group system
+    class main

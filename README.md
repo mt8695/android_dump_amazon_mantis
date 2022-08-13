@@ -1,0 +1,14 @@
+# mantis-user 6.0 NS6290 4022 amz-p,release-keys
+- manufacturer: amazon
+- platform: mt8695
+- codename: mantis
+- flavor: mantis-user
+- release: 7.1.2
+- id: NS6290
+- incremental: 0007282341508
+- tags: amz-p,release-keys
+- fingerprint: Amazon/mantis/mantis:6.0/NS6290/4022N:user/amz-p,release-keys
+- is_ab: false
+- brand: Amazon
+- branch: mantis-user-6.0-NS6290-4022-amz-p,release-keys
+- repo: amazon_mantis_dump

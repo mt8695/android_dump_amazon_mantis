@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+   Copyright (c) 2018 - 2021 Amazon.com, Inc. or its affiliates.  All rights reserved.
+   PROPRIETARY/CONFIDENTIAL.  USE IS SUBJECT TO LICENSE TERMS.
+-->
+<permissions>
+    <!-- By declaring the feature here
+         The API PackageManager.hasSystemFeature(String feature) will
+         return true if passed the feature name below.-->
+    <feature name="com.amazon.ffs.enabled"/>
+    <feature name="com.amazon.ugs.enabled"/>
+    <feature name="com.amazon.instant_str"/>
+    <feature name="com.amazon.feature.profile_picker"/>
+
+    <!-- Features used in NetworkStatusAdvisor to characterize devices -->
+    <feature name="com.amazon.firetv.ship.with.hdmi.ext"/>
+    <feature name="com.amazon.firetv.4k.supported"/>
+    <!-- Features used in security camera to enable pip mode -->
+    <feature name="com.amazon.feature.security.camera.pip.enabled"/>
+</permissions>
